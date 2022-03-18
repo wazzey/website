@@ -1,0 +1,39 @@
+html { height: 100%; }
+
+body { 
+  background: #333; 
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form { font-family: 'segoe ui';}
+
+h1 { 
+  font-family: 'segoe ui';
+  font-size: 10vw; }
+
+.linear-wipe {
+  text-align: center;
+  
+  background: linear-gradient(to right, #87cefa 20%, #c7a0cb 40%, #f08080 60%, #88d498 80%, #87cefa 100%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 1s linear infinite;
+}
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+    
+
+  button { text-align: center;
+  }
