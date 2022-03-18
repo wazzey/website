@@ -1,7 +1,7 @@
 html { height: 100%; }
 
 body { 
-  background: #333; 
+  background: grey; 
   text-align: center;
   min-height: 100%;
   display: flex;
