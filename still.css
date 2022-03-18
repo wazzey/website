@@ -15,7 +15,7 @@ h1 {
   font-family: 'segoe ui';
   font-size: 10vw; }
 
-.linear-wipe {
+.webtings {
   text-align: center;
   
   background: linear-gradient(to right, #87cefa 20%, #c7a0cb 40%, #f08080 60%, #88d498 80%, #87cefa 100%);
@@ -34,6 +34,3 @@ h1 {
     }
   }
     
-
-  button { text-align: center;
-  }
